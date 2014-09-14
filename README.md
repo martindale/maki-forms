@@ -1,5 +1,5 @@
 # maki-forms
-Expose HTML forms for [https://github.com/martindale/maki](maki) resources.
+Expose HTML forms for [maki](https://github.com/martindale/maki) resources.
 
 - Auto-generate the appropriate form for various actions; get a POST form for document creations, a PATCH form for document edits.
 
