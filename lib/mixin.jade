@@ -1,0 +1,8 @@
+mixin form( resource , type )
+  - var supportedTypes = ['create', 'edit', 'delete']
+  - if (supportedTypes.indexOf( type ) === -1) return;
+  
+  - var typeMap = { 'create': 'post', 'edit': 'patch', 'delete': 'delete' };
+  form(method="#{typeMap[ type ]}", action="#{resource.paths[ type ]}")
+    h4 Form for Resource
+    pre #{resource}
