@@ -1,7 +1,7 @@
 {
   "name": "maki-forms",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "use a request parameter to override the HTTP method in maki.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -9,7 +9,10 @@
   "keywords": [
     "maki",
     "framework",
-    "forms"
+    "forms",
+    "http",
+    "override",
+    "methods"
   ],
   "author": "Eric Martindale",
   "license": "MIT",
